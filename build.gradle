@@ -16,6 +16,19 @@ repositories {
 	mavenCentral()
 }
 
+jib {
+    from {
+        image = 'adoptopenjdk:11-jre-hotspot'
+    }
+    to {
+        image = 'us-central1-docker.pkg.dev/my-project-55158-testing/cloudrunautomation'
+    auth{
+        username = "oauth2accesstoken"
+	password = ""
+    }
+    }
+}
+
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter-web'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
