@@ -18,7 +18,7 @@ repositories {
 
 jib {
     from {
-        image = 'adoptopenjdk:11-jre-hotspot'
+        image = 'adoptopenjdk:17-jre-hotspot'
     }
     to {
         image = 'us-central1-docker.pkg.dev/my-project-55158-testing/cloudrunautomation'
