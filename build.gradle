@@ -22,7 +22,7 @@ jib {
 	    
     }
     to {
-        image = 'us-central1-docker.pkg.dev/my-project-55158-testing/cloudrunautomation'
+        image = 'us-central1-docker.pkg.dev/my-project-55158-testing/demoapi'
     auth{
         username = "oauth2accesstoken"
 	password = "ya29.a0AfB_byABeLztPXwUKfPJ161U5j83Eqtt7HdXOe_jPFDSyEfdLCjyxUSh_zmdKZLLyIsLPOEAK0EgyGdM5wXWbMLXQX0Km4XykruQOu63l8UxXN86q6Aa5VONGad_sVfabIwRRdWCVqW6P66xu7W5ji8JW--b8ohm700oW8k9FQaCgYKAXMSARISFQHGX2MiundgRsquuzsHURkM2CuTUg0177"
