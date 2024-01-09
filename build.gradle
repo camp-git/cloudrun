@@ -17,15 +17,17 @@ repositories {
 }
 
 jib {
-    from {
-        image = 'openjdk:17-jdk-slim'
-	    
-    }
+from {
+auth{
+image = "gcr.io/distroless/java17:latest"
+}
+// image = "gcr.io/distroless/java17:latest"
+}
     to {
-        image = 'us-central1-docker.pkg.dev/my-project-55158-testing/demoapi/test'
+        image = 'us-central1-docker.pkg.dev/my-project-55158-testing/demoapi/test1'
     auth{
         username = "oauth2accesstoken"
-	password = "ya29.a0AfB_byABeLztPXwUKfPJ161U5j83Eqtt7HdXOe_jPFDSyEfdLCjyxUSh_zmdKZLLyIsLPOEAK0EgyGdM5wXWbMLXQX0Km4XykruQOu63l8UxXN86q6Aa5VONGad_sVfabIwRRdWCVqW6P66xu7W5ji8JW--b8ohm700oW8k9FQaCgYKAXMSARISFQHGX2MiundgRsquuzsHURkM2CuTUg0177"
+	password = "ya29.a0AfB_byBH9S7PjrnPXFFyOrta76tjRXmvyz9ona69Ptx4YXX6AaETNIowFtX8522DdTnPmUkjOIR-57K9nFMdRz6WwEzMGIaDI_1ku66OV1vuxanEOmMVIImss3TioTTv-F807K_0LfUSvMfQ1TyakOzarr9XuQvDpzRHgN1gSAaCgYKAVkSARISFQHGX2MiyC6Ar9RblzwkLB8Ml3EMiQ0177"
     }
     }
 }
