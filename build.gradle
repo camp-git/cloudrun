@@ -24,10 +24,10 @@ image = "gcr.io/distroless/java17:latest"
 // image = "gcr.io/distroless/java17:latest"
 }
     to {
-        image = 'us-central1-docker.pkg.dev/my-project-55158-testing/demoapi/test2'
+        image = 'us-central1-docker.pkg.dev/my-project-55158-testing/demoapi/test3'
     auth{
         username = "oauth2accesstoken"
-	password = "ya29.a0AfB_byBH9S7PjrnPXFFyOrta76tjRXmvyz9ona69Ptx4YXX6AaETNIowFtX8522DdTnPmUkjOIR-57K9nFMdRz6WwEzMGIaDI_1ku66OV1vuxanEOmMVIImss3TioTTv-F807K_0LfUSvMfQ1TyakOzarr9XuQvDpzRHgN1gSAaCgYKAVkSARISFQHGX2MiyC6Ar9RblzwkLB8Ml3EMiQ0177"
+	password = "ya29.a0AfB_byDMe33XFHdCjFoYWNf9sP91MFDL592IhAW_3LCWZY8NYlz5nAF3074K_4Vs73tN9QG9F_cYET-xlOajR-ekTRCkqzSCYKch1ityZz3oeoyXpQcI2H-cDlYxpvcMF0hti1c1g6LOaKTyqQC73rX1htjJLh9fbQ3N-I493QaCgYKAckSARISFQHGX2MiRXT6mirGghBiRRbE_hy8DA0177"
     }
     }
 }
