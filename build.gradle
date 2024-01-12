@@ -24,7 +24,7 @@ image = "gcr.io/distroless/java17:latest"
 // image = "gcr.io/distroless/java17:latest"
 }
     to {
-        image = 'us-central1-docker.pkg.dev/my-project-55158-testing/demoapi/test1'
+        image = 'us-central1-docker.pkg.dev/my-project-55158-testing/demoapi/test2'
     auth{
         username = "oauth2accesstoken"
 	password = "ya29.a0AfB_byBH9S7PjrnPXFFyOrta76tjRXmvyz9ona69Ptx4YXX6AaETNIowFtX8522DdTnPmUkjOIR-57K9nFMdRz6WwEzMGIaDI_1ku66OV1vuxanEOmMVIImss3TioTTv-F807K_0LfUSvMfQ1TyakOzarr9XuQvDpzRHgN1gSAaCgYKAVkSARISFQHGX2MiyC6Ar9RblzwkLB8Ml3EMiQ0177"
